@@ -1,1 +1,11 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ballet:opsz@16..72&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Tailwind directives */
 @import "tailwindcss";
+
+@theme {
+  --font-ballet: "Ballet", cursive;
+  --font-rubik: "Rubik", sans-serif;
+  --font-archivo-black: "Archivo Black", sans-serif;
+}
