@@ -6,59 +6,94 @@
     <link rel="stylesheet" href="output.css" />
     <title>Laisharam Mani Memorial English Academy</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <header class="flex flex-col w-full overflow-hidden">
-      <div class="w-full bg-black text-white py-2 text-center hidden">
+      <div class="w-full bg-black text-white py-2 text-center hidden md:block">
         Admissions open for the new 2026 Batch. Check the Notice Board
       </div>
-      <div class="flex w-full justify-between items-center py-3 px-5">
-        <div class="flex items-center gap-2 w-[25%]">
-          <h1 class="">
+      <div
+        class="flex flex-wrap md:flex-nowrap w-full justify-between items-center py-3 px-5"
+      >
+        <div
+          class="flex items-center gap-2 w-full md:w-[25%] justify-center md:justify-start text-center md:text-left"
+        >
+          <h1 class="text-base md:text-lg leading-tight">
             <b
-              >Laisharma Mani Memorial <br />
+              >Laisharma Mani Memorial <br class="hidden md:block" />
               English Academy</b
             >
           </h1>
         </div>
-        <div class="flex justify-center items-center w-[50%]">
+
+        <div
+          class="flex justify-center items-center w-full md:w-[50%] mt-3 md:mt-0"
+        >
           <nav>
-            <ul class="flex items-center gap-15 font-semibold capitalize">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us.html">About</a></li>
-              <li><a href="/courses.html">Courses</a></li>
-              <li><a href="/contact-us.html">Contact</a></li>
+            <ul
+              class="flex flex-wrap justify-center items-center gap-5 md:gap-10 font-semibold capitalize text-sm md:text-base"
+            >
+              <li><a href="/" class="hover:text-blue-500">Home</a></li>
+              <li>
+                <a href="/about-us.html" class="hover:text-blue-500">About</a>
+              </li>
+              <li>
+                <a href="/courses.html" class="hover:text-blue-500">Courses</a>
+              </li>
+              <li>
+                <a href="/contact-us.html" class="hover:text-blue-500"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
-        <div class="flex justify-end items-center w-[25%]">
+
+        <div
+          class="flex justify-center md:justify-end items-center w-full md:w-[25%] mt-3 md:mt-0"
+        >
           <button
-            class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-full cursor-pointer"
+            class="px-5 py-2 bg-blue-500 text-white font-semibold rounded-full cursor-pointer w-full sm:w-auto text-sm md:text-base"
           >
             Apply Now
           </button>
         </div>
       </div>
     </header>
+
     <section>
       <div class="flex items-center justify-center w-full">
-        <img class="" src="/images/home_img.jpg" width="100%" alt="" />
+        <img
+          class="w-full h-auto object-cover"
+          src="/images/home_img.jpg"
+          alt=""
+        />
       </div>
-      <div class="w-full bg-black py-5 px-10">
-        <div class="w-full text-white text-lg flex justify-between px-1 pb-3">
-          <h2 class="font-bold tracking-wider">Student Updates</h2>
-          <div class="justify-center items-center gap-2 hidden">
+
+      <div class="w-full bg-black py-5 px-3 sm:px-10">
+        <div
+          class="w-full text-white text-base sm:text-lg flex flex-col sm:flex-row justify-between px-1 pb-3 gap-3 sm:gap-0"
+        >
+          <h2 class="font-bold tracking-wider text-center sm:text-left">
+            Student Updates
+          </h2>
+          <div class="justify-center items-center gap-2 hidden sm:flex">
             <img src="/images/Red_circle.gif" alt="" width="20px" />
             <p id="date" class="font-semibold tracking-wide text-xl">
               DD/MM/YYYY
             </p>
           </div>
         </div>
+
         <div class="bg-white border rounded-lg p-5 flex flex-col gap-5">
-          <div class="flex w-full gap-5">
-            <div class="px-5 py-2 bg-[#7c97ed] rounded-2xl">
+          <div class="flex flex-col sm:flex-row w-full gap-3 sm:gap-5">
+            <div
+              class="px-5 py-2 bg-[#7c97ed] rounded-2xl text-center sm:text-left"
+            >
               <p>12 March 2026</p>
             </div>
-            <div class="flex items-center justify-center">
+            <div
+              class="flex items-center justify-center sm:justify-start text-center sm:text-left"
+            >
               <p>
                 Admissions are open for the new academic year 2026-2027. Enroll
                 now to secure your child's future!
@@ -66,11 +101,15 @@
             </div>
           </div>
 
-          <div class="flex w-full gap-5">
-            <div class="px-5 py-2 bg-[#7c97ed] rounded-2xl">
+          <div class="flex flex-col sm:flex-row w-full gap-3 sm:gap-5">
+            <div
+              class="px-5 py-2 bg-[#7c97ed] rounded-2xl text-center sm:text-left"
+            >
               <p>12 March 2026</p>
             </div>
-            <div class="flex items-center justify-center">
+            <div
+              class="flex items-center justify-center sm:justify-start text-center sm:text-left"
+            >
               <p>
                 Admissions are open for the new academic year 2026-2027. Enroll
                 now to secure your child's future!
@@ -78,11 +117,15 @@
             </div>
           </div>
 
-          <div class="flex w-full gap-5">
-            <div class="px-5 py-2 bg-[#7c97ed] rounded-2xl">
+          <div class="flex flex-col sm:flex-row w-full gap-3 sm:gap-5">
+            <div
+              class="px-5 py-2 bg-[#7c97ed] rounded-2xl text-center sm:text-left"
+            >
               <p>12 March 2026</p>
             </div>
-            <div class="flex items-center justify-center">
+            <div
+              class="flex items-center justify-center sm:justify-start text-center sm:text-left"
+            >
               <p>
                 Admissions are open for the new academic year 2026-2027. Enroll
                 now to secure your child's future!
@@ -92,21 +135,29 @@
         </div>
       </div>
     </section>
-    <!-- About us  -->
-    <section id="about-us" class="flex w-full py-15 justify-center">
-      <div class="flex flex-col justify-between w-[55%]">
+
+    <!-- About us -->
+    <section
+      id="about-us"
+      class="flex flex-col lg:flex-row w-full py-10 px-5 lg:px-20 justify-center gap-10 items-center"
+    >
+      <div
+        class="flex flex-col justify-between w-full lg:w-[55%] text-center lg:text-left"
+      >
         <h2
-          class="text-6xl tracking-wide [word-spacing:10px] font-bold text-black font-ballet my-5"
+          class="text-4xl md:text-6xl tracking-wide [word-spacing:10px] font-bold text-black font-ballet my-5"
         >
           About us
         </h2>
         <div class="flex flex-col gap-2">
-          <h3 class="text-3xl font-archivo-black capitalize">
-            Laishram Mani Memorial <br />
+          <h3 class="text-2xl md:text-3xl font-archivo-black capitalize">
+            Laishram Mani Memorial <br class="hidden md:block" />
             English Academy
           </h3>
 
-          <p class="text-lg w-[80%] font-rubik">
+          <p
+            class="text-base md:text-lg w-full md:w-[80%] font-rubik mx-auto lg:mx-0"
+          >
             Laishram Mani Memorial English Academy, founded in loving memory of
             Late Shri Laishram Mani Singh, stands as a beacon of learning in
             Imphal East. For over 30 years, we've guided students toward
@@ -114,9 +165,12 @@
             through education.
           </p>
         </div>
-        <div class="">
-          <h3 class="text-xl font-archivo-black uppercase">Our Mission</h3>
-          <p class="w-[90%] font-rubik capitalize">
+
+        <div class="mt-5">
+          <h3 class="text-lg md:text-xl font-archivo-black uppercase">
+            Our Mission
+          </h3>
+          <p class="w-full md:w-[90%] font-rubik capitalize mx-auto lg:mx-0">
             To cultivate knowledge, character, and discipline, shaping
             responsible and confident citizens of tomorrow.
           </p>
@@ -124,94 +178,107 @@
 
         <a
           href="/about"
-          class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-800 transition-colors w-fit"
+          class="inline-block mt-5 px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-800 transition-colors w-fit mx-auto lg:mx-0"
         >
           Learn More
         </a>
       </div>
-      <div class="flex w-[40%] overflow-hidden rounded-2xl">
-        <img src="/images/about_img.avif" alt="" width="100%" />
+
+      <div class="flex w-full lg:w-[40%] overflow-hidden rounded-2xl">
+        <img
+          src="/images/about_img.avif"
+          alt=""
+          class="w-full h-auto object-cover"
+        />
       </div>
     </section>
 
-    <section class="flex flex-col items-center w-full gap-5 py-15">
-      <h3 class="text-center text-5xl font-archivo-black leading-15 capitalize">
+    <section class="flex flex-col items-center w-full gap-5 py-10">
+      <h3
+        class="text-center text-3xl md:text-5xl font-archivo-black leading-tight capitalize"
+      >
         In Every Step from <br />
         Pre-nursary to 12th Standard
       </h3>
       <div
-        class="flex gap-5 items-center justify-center py-5 w-[90%] flex-wrap"
+        class="flex flex-wrap gap-5 items-center justify-center py-5 w-[95%] sm:w-[90%]"
         id="courses"
       >
         <!-- Using Js to showcases classes  -->
       </div>
 
-      <div class="flex w-[85%]">
-        <div class="flex flex-col w-[50%] gap-10">
-          <h3 class="text-blue-950 text-3xl font-bold">
+      <div class="flex flex-col lg:flex-row w-[90%] gap-10">
+        <div class="flex flex-col w-full lg:w-[50%] gap-10">
+          <h3
+            class="text-blue-950 text-2xl md:text-3xl font-bold text-center lg:text-left"
+          >
             Intractive teaching <br />
             our smart class
           </h3>
-          <div class="-z-1 relative">
+          <div class="relative flex justify-center lg:justify-start">
             <img
-              class="rounded-2xl rotate-[-6deg]"
+              class="rounded-2xl rotate-[-6deg] w-[80%] md:w-[400px]"
               src="/images/smartclass_1.jpg"
               alt=""
-              width="400px"
             />
             <img
-              class="rounded-2xl rotate-[4deg] absolute top-[50%] left-[25%]"
+              class="hidden md:block rounded-2xl rotate-[4deg] absolute top-[50%] left-[25%] w-[300px]"
               src="/images/smartclass_2.jpg"
               alt=""
-              width="300px"
             />
             <img
-              class="absolute right-0 top-0 rotate-80"
+              class="absolute right-0 top-0 rotate-80 hidden md:block"
               src="/images/arrow.jpg"
               alt=""
               width="150px"
             />
           </div>
         </div>
-        <div class="flex flex-col w-[50%] items-center">
+
+        <div class="flex flex-col w-full lg:w-[50%] items-center">
           <img
-            class="mb-10"
+            class="mb-10 w-[80px] md:w-[100px]"
             src="/images/smartclass.png"
             alt=""
-            width="100px"
           />
-          <div class="flex w-[70%] gap-2 py-2">
+          <div class="flex w-[90%] sm:w-[70%] gap-2 py-2">
             <img class="w-8 h-8" src="/images/green_tick_icon.png" alt="" />
             <div>
-              <h4 class="text-xl font-semibold">Interactive Learning</h4>
+              <h4 class="text-lg md:text-xl font-semibold">
+                Interactive Learning
+              </h4>
               <p>
                 Engage students with multimedia lessons that make concepts
                 easier to understand and remember.
               </p>
             </div>
           </div>
-          <div class="flex w-[70%] gap-2 py-2">
+          <div class="flex w-[90%] sm:w-[70%] gap-2 py-2">
             <img
               class="w-8 h-8"
               src="https://cdn-icons-png.flaticon.com/512/2143/2143150.png"
               alt=""
             />
             <div>
-              <h4 class="text-xl font-semibold">Personalized Pace</h4>
+              <h4 class="text-lg md:text-xl font-semibold">
+                Personalized Pace
+              </h4>
               <p>
                 Smart classes allow students to learn at their own speed,
                 ensuring no one is left behind.
               </p>
             </div>
           </div>
-          <div class="flex w-[70%] gap-2 py-2">
+          <div class="flex w-[90%] sm:w-[70%] gap-2 py-2">
             <img
               class="w-8 h-8"
               src="https://cdn-icons-png.flaticon.com/512/2143/2143150.png"
               alt=""
             />
             <div>
-              <h4 class="text-xl font-semibold">Real-Time Feedback</h4>
+              <h4 class="text-lg md:text-xl font-semibold">
+                Real-Time Feedback
+              </h4>
               <p>
                 Instant assessments help teachers identify areas of improvement
                 and guide students effectively.
@@ -221,107 +288,126 @@
         </div>
       </div>
     </section>
+
     <section class="flex flex-col pt-10">
-      <h3 class="text-3xl font-bold py-5 text-center">What Our Students Say</h3>
-      <div class="py-5 flex gap-5 justify-center">
+      <h3 class="text-2xl md:text-3xl font-bold py-5 text-center">
+        What Our Students Say
+      </h3>
+      <div
+        class="py-5 flex flex-col md:flex-row gap-5 justify-center items-center"
+      >
         <!-- student card  -->
-        <div class="border rounded-lg p-5 flex flex-col gap-5 w-[30%]">
-          <div class="flex gap-10">
+        <div
+          class="border rounded-lg p-5 flex flex-col gap-5 w-[90%] md:w-[30%]"
+        >
+          <div class="flex gap-5 md:gap-10 items-center">
             <img
               src="https://cdn-icons-png.flaticon.com/512/9203/9203764.png"
               alt=""
               width="50px"
             />
             <div>
-              <h4 class="text-xl font-semibold">Student Name</h4>
+              <h4 class="text-lg md:text-xl font-semibold">Student Name</h4>
               <p>Course Name</p>
             </div>
           </div>
-          <p>
+          <p class="text-sm md:text-base text-center md:text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis eos consequuntur quibusdam cupiditate, illo possimus
           </p>
         </div>
         <!-- student card  -->
-        <div class="border rounded-lg p-5 flex flex-col gap-5 w-[30%]">
-          <div class="flex gap-10">
+        <div
+          class="border rounded-lg p-5 flex flex-col gap-5 w-[90%] md:w-[30%]"
+        >
+          <div class="flex gap-5 md:gap-10 items-center">
             <img
               src="https://cdn-icons-png.flaticon.com/512/9203/9203764.png"
               alt=""
               width="50px"
             />
             <div>
-              <h4 class="text-xl font-semibold">Student Name</h4>
+              <h4 class="text-lg md:text-xl font-semibold">Student Name</h4>
               <p>Course Name</p>
             </div>
           </div>
-          <p>
+          <p class="text-sm md:text-base text-center md:text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis eos consequuntur quibusdam cupiditate, illo possimus
           </p>
         </div>
         <!-- student card  -->
-        <div class="border rounded-lg p-5 flex flex-col gap-5 w-[30%]">
-          <div class="flex gap-10">
+        <div
+          class="border rounded-lg p-5 flex flex-col gap-5 w-[90%] md:w-[30%]"
+        >
+          <div class="flex gap-5 md:gap-10 items-center">
             <img
               src="https://cdn-icons-png.flaticon.com/512/9203/9203764.png"
               alt=""
               width="50px"
             />
             <div>
-              <h4 class="text-xl font-semibold">Student Name</h4>
+              <h4 class="text-lg md:text-xl font-semibold">Student Name</h4>
               <p>Course Name</p>
             </div>
           </div>
-          <p>
+          <p class="text-sm md:text-base text-center md:text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis eos consequuntur quibusdam cupiditate, illo possimus
           </p>
         </div>
       </div>
     </section>
-    <!-- start of footer  -->
+
+    <!-- Footer -->
     <footer
-      class="flex flex-col items-center justify-between w-full rounded-t-4xl bg-blue-900 h-[50vh] mt-10"
+      class="flex flex-col items-center justify-between w-full rounded-t-4xl bg-blue-900 mt-10 px-5 py-10"
     >
-      <div class="flex w-[90%] pb-5 pt-15">
-        <!-- Main holder of containers -->
-        <div>
-          <div class="flex items-center gap-2 w-[25%]">
+      <div
+        class="flex flex-col md:flex-row w-full md:w-[90%] pb-5 md:pt-15 gap-10"
+      >
+        <div
+          class="flex flex-col w-full md:w-[50%] items-center md:items-start"
+        >
+          <div class="flex items-center gap-2">
             <img
-              class="rounded-full"
+              class="rounded-full w-[50px]"
               src="https://marketplace.canva.com/EAGUe-CYFgU/1/0/1600w/canva-grey-orange-modern-circle-class-logo-Aro9ea9TDP4.jpg"
-              width="15%"
               alt=""
             />
 
-            <h1 class="text-white">
+            <h1
+              class="text-white text-center md:text-left text-base md:text-lg"
+            >
               <b
                 >Laisharma Mani Memorial <br />
                 English Academy</b
               >
             </h1>
           </div>
-          <h2 class="text-white text-xl font-semibold mt-3">
+          <h2
+            class="text-white text-base md:text-xl font-semibold mt-3 text-center md:text-left"
+          >
             Join Laisharam Mani Memorial English Academy Today!
           </h2>
-          <p class="text-white text-lg">
+          <p class="text-white text-sm md:text-lg text-center md:text-left">
             Empowering Students for a Brighter Future
           </p>
         </div>
       </div>
-      <!-- The bottom misc part -->
-      <div class="border-t-1 border-white w-[90%] py-2 flex justify-between">
-        <p class="text-white">
+
+      <div
+        class="border-t border-white w-full md:w-[90%] py-3 flex flex-col md:flex-row justify-between items-center text-center text-white text-sm"
+      >
+        <p>
           &copy; 2026 Laisharam Mani Memorial English Academy. All rights
           reserved.
         </p>
         <div>
-          <p class="text-white">Designed and Developed by Raisng Web</p>
+          <p>Designed and Developed by Raisng Web</p>
         </div>
       </div>
     </footer>
-    <!-- end of footer -->
     <script src="/home.js"></script>
   </body>
 </html>

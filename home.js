@@ -47,3 +47,11 @@ let testimonial = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut labore et dolore magna aliqua.",
   },
 ];
+
+//
+
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+menuBtn.addEventListener("click", () => {
+  mobileMenu.classList.toggle("hidden");
+});
